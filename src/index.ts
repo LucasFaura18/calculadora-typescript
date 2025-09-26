@@ -55,7 +55,7 @@ function deleteLast(): void {
 }
 
 function calculate(): void {
-    if (previousInput !== '' && currentInput !== '0' && currentInput !== '' && operator !== '') {
+    if (previousInput !== '' /*&& currentInput !== '0' */&& currentInput !== '' && operator !== '') {
         const prev = parseFloat(previousInput);
         const current = parseFloat(currentInput);
         
